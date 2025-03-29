@@ -75,12 +75,17 @@ movimientos: Para registrar los movimientos de inventario.
 - Reemplaza los siguientes valores con los datos reales de tu proveedor de correo (en este ejemplo se usa Gmail):
 
 // Correo de destino para enviar el token.
+
 $email_destino = 'example321@gmail.com'; // Remmplazar por el correo en el que quieres recibir el token.
 
 $mail->Host = 'smtp.gmail.com';
+
 $mail->Username = 'example123@gmail.com'; // Cuenta de Google en el que generaste tu App Password.
+
 $mail->Password = 'YOUR_APP_PASSWORD'; // Genera una App Password en tu cuenta de Google.
+
 $mail->SMTPSecure = 'tls';
+
 $mail->Port = 587;
 
 - Asegúrate de que la extensión OpenSSL esté habilitada en tu php.ini (busca la línea extension=openssl y quita el punto y coma al inicio, si es necesario).
