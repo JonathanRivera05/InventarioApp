@@ -43,23 +43,37 @@ mediante un sistema de inicio de sesión con verificación por token.
 - Crea la siguiente base de datos ejecutando la siguiente consulta:
 
     -- Crear la base de datos (si no existe)
+
 CREATE DATABASE IF NOT EXISTS InventarioApp;
+
 USE InventarioApp;
 
 -- Crear la tabla de productos
+
 CREATE TABLE IF NOT EXISTS productos (
+
     id INT AUTO_INCREMENT PRIMARY KEY,
+
     nombre VARCHAR(255) NOT NULL,
+
     descripcion TEXT,
+
     precio DECIMAL(10,2) NOT NULL,
+
     cantidad INT NOT NULL
+
 );
 
 -- Crear la tabla de movimientos
+
 CREATE TABLE IF NOT EXISTS movimientos (
+
     id INT AUTO_INCREMENT PRIMARY KEY,
+
     descripcion VARCHAR(255) NOT NULL,
+
     fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+
 );
 
 
