@@ -121,7 +121,7 @@ Identifica y modifica lo siguiente si es necesario:
 
     $password = "";  
 
-    - Asegúrate de que la extensión OpenSSL esté habilitada en tu php.ini (busca la línea extension=openssl y quita el punto y coma al inicio, si es necesario).
+- Asegúrate de que la extensión OpenSSL esté habilitada en tu php.ini (busca la línea extension=openssl y quita el punto y coma al inicio, si es necesario).
 
 
 2. Verificar el Envío de Correos:
