@@ -113,12 +113,15 @@ include 'D:\APPS\XAMPP\htdocs\InventarioApp\src\config\database.php'; // Verific
 
 Identifica y modifica lo siguiente si es necesario:
 
-$host = "localhost"; // Modifica estos parametros segun tus necesidades
-$db_name = "inventario_db";
-$username = "root"; // Si estas usando XAMPP el usuario predeterminado es root, y no tiene contraseña
-$password = "";  
+    $host = "localhost"; // Modifica estos parametros segun tus necesidades
 
-- Asegúrate de que la extensión OpenSSL esté habilitada en tu php.ini (busca la línea extension=openssl y quita el punto y coma al inicio, si es necesario).
+    $db_name = "inventario_db";
+
+    $username = "root"; // Si estas usando XAMPP el usuario predeterminado es root, y no tiene contraseña
+
+    $password = "";  
+
+    - Asegúrate de que la extensión OpenSSL esté habilitada en tu php.ini (busca la línea extension=openssl y quita el punto y coma al inicio, si es necesario).
 
 
 2. Verificar el Envío de Correos:
