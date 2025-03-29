@@ -104,6 +104,13 @@ $mail->Port = 587;
 
 - Asegúrate de que la extensión OpenSSL esté habilitada en tu php.ini (busca la línea extension=openssl y quita el punto y coma al inicio, si es necesario).
 
+- Navega a src/api/read_products.php
+
+Identifica y modifica lo siguiente:
+
+include 'D:\APPS\XAMPP\htdocs\InventarioApp\src\config\database.php'; // Verifica la ruta en la que tienes el archivo database.php y reemplaza aqui
+
+
 2. Verificar el Envío de Correos:
 
 - Una vez configurado, al iniciar sesión se enviará un token de acceso al correo example@gmail.com. Verifica que el correo llegue correctamente.

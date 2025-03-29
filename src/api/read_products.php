@@ -1,5 +1,5 @@
 <?php
-include 'D:\APPS\XAMPP\htdocs\InventarioApp\src\config\database.php';
+include 'D:\APPS\XAMPP\htdocs\InventarioApp\src\config\database.php'; // Verifica la ruta en la que tienes el archivo database.php y reemplaza aqui
 
 // Obtener valores de los filtros enviados desde el formulario
 $nombre = $_GET['buscar'] ?? '';
