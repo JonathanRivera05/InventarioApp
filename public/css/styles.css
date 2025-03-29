@@ -1,0 +1,310 @@
+/* === Estilos Generales === */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    padding-bottom: 80px;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* === Botón de navegación (Agregar producto) === */
+nav button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #28A745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background-color: #218838;
+}
+
+/* === Pie de página === */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* === Layout Principal (formulario + tabla) === */
+.main-layout {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0 40px 40px;
+}
+
+/* === Tabla de Productos === */
+.table-wrapper {
+    flex: 1;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* === Botones de Acciones (Editar, Eliminar) === */
+.buttons button {
+    padding: 8px 15px;
+    background-color: #166aaa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #0e4a82;
+}
+
+/* === Formularios Generales (Agregar/Editar Producto) === */
+.product-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.product-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-form input[type="text"],
+.product-form input[type="number"],
+.product-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.product-form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.product-form button,
+.form-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.product-form button:hover,
+.form-button:hover {
+    background-color: #45a049;
+}
+
+/* === Filtros de búsqueda (formulario lateral izquierdo) === */
+.filter-wrapper {
+    max-width: 340px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex-shrink: 0;
+}
+
+.filter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.filter-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.filter-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.filter-form .form-button {
+    width: 150px;
+    align-self: flex-start;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filter-form .form-button:hover {
+    background-color: #0056b3;
+}
+
+/* === Botón Agregar Producto debajo de la tabla === */
+.add-button-container {
+    margin-top: 20px;
+}
+
+.add-button {
+    background-color: #28A745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
+}
+
+.add-button:hover {
+    background-color: #218838;
+}
+
+/* === Estilo centrado para páginas de formulario (Agregar/Editar) === */
+.form-box {
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* === Formulario de Entradas/Salidas de Inventario === */
+.stock-form-wrapper {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.stock-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.stock-form label {
+    font-weight: bold;
+}
+
+.stock-form input,
+.stock-form select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.stock-form .form-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.stock-form .form-button:hover {
+    background-color: #0056b3;
+}
+
+/* === Diseño Responsive === */
+@media (max-width: 768px) {
+    .main-layout {
+        flex-direction: column;
+        padding: 0 20px 40px;
+    }
+
+    .filter-wrapper,
+    .table-wrapper {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .filter-form .form-button {
+        width: 100%;
+    }
+}
+
+/* === Notificación (Alert) === */
+.alert {
+    background-color: #d9edf7;
+    color: #31708f;
+    border: 1px solid #bce8f1;
+    padding: 15px;
+    margin: 20px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.movimientos-button-container {
+    margin-top: 20px;
+}
+
+.movimientos-button-container .form-button {
+    background-color: #FFC107; /* Color diferente para distinguirlo, por ejemplo, amarillo */
+    color: #333;
+}
+
+.movimientos-button-container .form-button:hover {
+    background-color: #e0a800;
+}
+
+
+.top-button-container {
+    margin: 20px;
+    text-align: left;        /* Alineado a la izquierda */
+}
+
+.top-button-container .form-button {
+    background-color: #007BFF; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.top-button-container .form-button:hover {
+    background-color: #0056b3;
+}
