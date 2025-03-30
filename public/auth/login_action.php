@@ -12,7 +12,7 @@ $usuario_correcto = 'admin';
 $password_correcto = 'password123';
 
 // Correo de destino para enviar el token
-$email_destino = 'jonathanvasquez842@gmail.com'; // Remmplazar por el correo en el que quieres recibir el token
+$email_destino = 'example123@gmail.com'; // Remmplazar por el correo en el que quieres recibir el token
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'];
@@ -32,8 +32,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true; 
-            $mail->Username = 'jonathanvasquez842@gmail.com'; // Reemplaza con tu correo
-            $mail->Password = 'ebdb tbko mlky bate'; // Reemplaza con tu App Password de Gmail
+            $mail->Username = 'example123@gmail.com'; // Reemplaza con tu correo
+            $mail->Password = 'YOUR_APP_PASSWORD'; // Reemplaza con tu App Password de Gmail
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
             
