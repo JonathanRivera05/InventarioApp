@@ -26,10 +26,16 @@
                 <input type="text" id="buscar" name="buscar" placeholder="Escribe el nombre..." value="<?= htmlspecialchars($_GET['buscar'] ?? '') ?>">
 
                 <label for="precio_min">Precio mínimo:</label>
-                <input type="number" id="precio_min" name="precio_min" step="0.01" value="<?= htmlspecialchars($_GET['precio_min'] ?? '') ?>">
+                <div class="input-group">
+                    <span class="input-prefix">$</span>
+                    <input type="number" id="precio_min" name="precio_min" step="0.01" value="<?= htmlspecialchars($_GET['precio_min'] ?? '') ?>">
+                </div>
 
                 <label for="precio_max">Precio máximo:</label>
-                <input type="number" id="precio_max" name="precio_max" step="0.01" value="<?= htmlspecialchars($_GET['precio_max'] ?? '') ?>">
+                <div class="input-group">
+                    <span class="input-prefix">$</span>
+                    <input type="number" id="precio_max" name="precio_max" step="0.01" value="<?= htmlspecialchars($_GET['precio_max'] ?? '') ?>">
+                </div>
 
                 <label for="cantidad_min">Cantidad mínima:</label>
                 <input type="number" id="cantidad_min" name="cantidad_min" value="<?= htmlspecialchars($_GET['cantidad_min'] ?? '') ?>">
