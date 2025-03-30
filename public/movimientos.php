@@ -1,3 +1,5 @@
+<?php include '../auth_check.php'; ?>
+
 <?php
 include '../src/config/database.php';
 

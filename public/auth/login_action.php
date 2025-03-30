@@ -1,3 +1,5 @@
+<?php include '../../auth_check.php'; ?>
+
 <?php
 session_start();
 require '../../vendor/autoload.php'; // Asegúrate de que la ruta a autoload.php es correcta
@@ -30,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'example123@gmail.com'; // Cuenta de Google en el que generaste tu App Password
+            $mail->Username = 'example123@gmail.com'; // Reemplaza con tu correo
             $mail->Password = 'YOUR_APP_PASSWORD'; // Reemplaza con tu App Password de Gmail
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;

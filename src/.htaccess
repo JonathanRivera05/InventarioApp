@@ -1,0 +1,3 @@
+RewriteEngine On
+# Redirige todas las peticiones de este directorio al login
+RewriteRule ^.*$ /InventarioApp/public/auth/login.php [R=301,L]

@@ -1,3 +1,5 @@
+<?php include '../auth_check.php'; ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -55,7 +57,7 @@
 
         <!-- Formulario de actualizar inventario y botón agregar producto a la derecha -->
         <div class="stock-form-wrapper">
-            <button onclick="location.href='add_product.html'" class="add-button" style="margin-bottom: 20px;">Agregar Producto</button>
+            <button onclick="location.href='add_product.php'" class="add-button" style="margin-bottom: 20px;">Agregar Producto</button>
 
             <h3>Actualizar Inventario</h3>
             <form action="../src/api/update_stock.php" method="POST" class="stock-form">
