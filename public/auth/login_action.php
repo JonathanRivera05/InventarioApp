@@ -1,5 +1,3 @@
-<?php include '../auth_check.php'; ?>
-
 <?php
 session_start();
 require '../../vendor/autoload.php'; // Asegúrate de que la ruta a autoload.php es correcta
