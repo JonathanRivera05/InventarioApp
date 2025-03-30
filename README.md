@@ -138,7 +138,7 @@ Guarda el archivo y reinicia Apache para que los cambios surtan efecto. Esto hab
 
 2. Verificar el Envío de Correos:
 
-- Una vez configurado, al iniciar sesión se enviará un token de acceso al correo example@gmail.com. Verifica que el correo llegue correctamente.
+- Una vez configurado, al iniciar sesión se enviará un token de acceso al correo que hayas indicado. Verifica que el correo llegue correctamente.
 
 
 ### Paso 4: Instalar Dependencias con Composer
