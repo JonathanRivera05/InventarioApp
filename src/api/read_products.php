@@ -45,7 +45,7 @@ while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
     echo "<td>{$row['id']}</td>";
     echo "<td>{$row['nombre']}</td>";
     echo "<td>{$row['descripcion']}</td>";
-    echo "<td>{$row['precio']}</td>";
+    echo "<td>$" . number_format($row['precio'], 2) . "</td>";
     echo "<td>{$row['cantidad']}</td>";
     echo "<td class='buttons'>
             <button onclick=\"location.href='../src/api/update_product.php?id={$row['id']}'\">Editar</button>

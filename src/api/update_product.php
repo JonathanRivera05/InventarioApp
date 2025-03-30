@@ -39,7 +39,11 @@ $cantidad = $row['cantidad'];
             <textarea id="descripcion" name="descripcion" required><?php echo htmlspecialchars($descripcion, ENT_QUOTES); ?></textarea>
 
             <label for="precio">Precio:</label>
-            <input type="number" id="precio" name="precio" value="<?php echo htmlspecialchars($precio, ENT_QUOTES); ?>" step="0.01" required>
+            <div class="input-group">
+                <span class="input-prefix">$</span>
+                <input type="number" id="precio" name="precio" value="<?php echo htmlspecialchars($precio, ENT_QUOTES); ?>" step="0.01" required>
+            </div>
+
 
             <label for="cantidad">Cantidad:</label>
             <input type="number" id="cantidad" name="cantidad" value="<?php echo htmlspecialchars($cantidad, ENT_QUOTES); ?>" required>
