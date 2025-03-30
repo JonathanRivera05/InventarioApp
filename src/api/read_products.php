@@ -38,7 +38,7 @@ $stmt->execute($params);
 
 // Mostrar la tabla con los productos filtrados
 echo "<table>";
-echo "<tr><th>ID</th><th>Nombre</th><th>Descripción</th><th>Precio</th><th>Cantidad</th><th>Acciones</th></tr>";
+echo "<tr><th>ID</th><th>Nombre</th><th>Descripción</th><th>Precio/Unidad</th><th>Stock</th><th>Acciones</th></tr>";
 
 while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
     echo "<tr>";
