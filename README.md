@@ -57,37 +57,37 @@ Guarda el archivo y reinicia Apache para que los cambios surtan efecto. Esto hab
 
     -- Crear la base de datos (si no existe)
 
-CREATE DATABASE IF NOT EXISTS InventarioApp;
+    CREATE DATABASE IF NOT EXISTS InventarioApp;
 
-USE InventarioApp;
+    USE InventarioApp;
 
 -- Crear la tabla de productos
 
-CREATE TABLE IF NOT EXISTS productos (
+    CREATE TABLE IF NOT EXISTS productos (
 
-    id INT AUTO_INCREMENT PRIMARY KEY,
+        id INT AUTO_INCREMENT PRIMARY KEY,
 
-    nombre VARCHAR(255) NOT NULL,
+        nombre VARCHAR(255) NOT NULL,
 
-    descripcion TEXT,
+        descripcion TEXT,
 
-    precio DECIMAL(10,2) NOT NULL,
+        precio DECIMAL(10,2) NOT NULL,
 
-    cantidad INT NOT NULL
+        cantidad INT NOT NULL
 
-);
+    );
 
 -- Crear la tabla de movimientos
 
-CREATE TABLE IF NOT EXISTS movimientos (
+    CREATE TABLE IF NOT EXISTS movimientos (
 
-    id INT AUTO_INCREMENT PRIMARY KEY,
+        id INT AUTO_INCREMENT PRIMARY KEY,
 
-    descripcion VARCHAR(255) NOT NULL,
+        descripcion VARCHAR(255) NOT NULL,
 
-    fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 
-);
+    );
 
 
 productos: Para almacenar la información de los productos.
