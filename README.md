@@ -55,7 +55,7 @@ Guarda el archivo y reinicia Apache para que los cambios surtan efecto. Esto hab
 - En phpMyAdmin (u otra herramienta de MySQL), crea una base de datos para el proyecto.
 - Crea la siguiente base de datos ejecutando la siguiente consulta:
 
-    -- Crear la base de datos (si no existe)
+-- Crear la base de datos (si no existe)
 
     CREATE DATABASE IF NOT EXISTS InventarioApp;
 
