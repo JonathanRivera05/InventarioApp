@@ -152,7 +152,7 @@ Esto instalará PHPMailer y cualquier otra dependencia definida en composer.json
 
 ### Paso 5: Ejecutar el Proyecto
 1. Inicia Apache y MySQL (por ejemplo, usando XAMPP).
-2. Accede a http://localhost/InventarioApp en tu navegador para ver la aplicación.
+2. Accede a http://localhost/InventarioApp/public/auth/login.php en tu navegador para ver la aplicación.
 
 
 ## Funcionalidades del Proyecto
