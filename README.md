@@ -155,6 +155,62 @@ Esto instalará PHPMailer y cualquier otra dependencia definida en composer.json
 - Registrar movimientos en la tabla movimientos, como historial de entradas y salidas.
 
 
+## Pruebas
+
+Aquí tienes una lista de 10 productos con detalles para hacer pruebas en el sistema:
+
+1. Teclado Mecánico
+- Descripción: Teclado con switches mecánicos y retroiluminación LED.
+- Precio: 49.99
+- Cantidad: 15
+
+
+2. Ratón Inalámbrico
+- Descripción: Ratón óptico con receptor USB.
+- Precio: 19.99
+- Cantidad: 30
+
+3. Monitor Curvo 27"
+- Descripción: Monitor curvo Full HD de 27 pulgadas.
+- Precio: 179.99
+- Cantidad: 8
+
+4. Auriculares Over Ear
+- Descripción: Auriculares con micrófono integrado y cancelación de ruido.
+- Precio: 39.99
+- Cantidad: 20
+
+5. Disco SSD 512GB
+- Descripción: SSD de 512GB SATA 2.5" para alto rendimiento.
+- Precio: 59.99
+- Cantidad: 25
+
+6. Micrófono USB
+- Descripción: Micrófono de condensador con conexión USB.
+- Precio: 29.99
+- Cantidad: 10
+
+7. Webcam HD 1080p
+- Descripción: Cámara web Full HD con micrófono integrado.
+- Precio: 24.99
+- Cantidad: 18
+
+8. Impresora Láser
+- Descripción: Impresora monocromática con conectividad Wi-Fi.
+- Precio: 129.99
+- Cantidad: 12
+
+9. Memoria RAM 8GB DDR4
+- Descripción: Módulo de 8GB DDR4 a 2666MHz.
+- Precio: 34.99
+- Cantidad: 40
+
+10. Silla Gamer
+- Descripción: Silla ergonómica con ajuste de altura y respaldo reclinable.
+- Precio: 99.99
+- Cantidad: 5
+
+
 ## Notas Adicionales
 Control de Versiones:
 Se utiliza Git para el control de versiones.
