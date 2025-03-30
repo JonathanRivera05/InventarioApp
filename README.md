@@ -35,7 +35,6 @@ mediante un sistema de inicio de sesión con verificación por token.
 1. Clona el repositorio público:
    ```bash
    git clone https://github.com/JonathanRivera05/InventarioApp.git
-   cd InventarioApp
 
 ### Paso 2: Configurar la Base de Datos
 1. Crear la Base de Datos:
