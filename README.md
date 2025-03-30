@@ -22,10 +22,23 @@ mediante un sistema de inicio de sesión con verificación por token.
 ## Requisitos
 
 - Servidor web con PHP 7.4 o superior.
+- XAMPP como localhost.
 - MySQL.
 - Composer.
-- Extensión OpenSSL habilitada en PHP (revisar en `php.ini`).
 - Un proveedor SMTP (por ejemplo, Gmail) para enviar el token de autenticación.
+- Extensión OpenSSL habilitada en PHP (revisar en `php.ini`).
+
+Para habilitar OpenSSL, abre tu archivo php.ini (en la opcion config de Apache en XAMPP) y busca la línea:
+
+    ;extension=openssl
+
+Luego, remueve el punto y coma al inicio para que quede:
+
+    extension=openssl
+
+Guarda el archivo y reinicia Apache para que los cambios surtan efecto. Esto habilitará la extensión OpenSSL en PHP.
+
+
 
 ## Instrucciones para Ejecutar el Proyecto
 
