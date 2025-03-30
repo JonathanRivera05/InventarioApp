@@ -28,18 +28,6 @@ mediante un sistema de inicio de sesión con verificación por token.
 - Un proveedor SMTP (por ejemplo, Gmail) para enviar el token de autenticación.
 - Extensión OpenSSL habilitada en PHP (revisar en `php.ini`).
 
-Para habilitar OpenSSL, abre tu archivo php.ini (en la opcion config de Apache en XAMPP) y busca la línea:
-
-    ;extension=openssl
-
-Luego, remueve el punto y coma al inicio para que quede:
-
-    extension=openssl
-
-Guarda el archivo y reinicia Apache para que los cambios surtan efecto. Esto habilitará la extensión OpenSSL en PHP.
-
-
-
 ## Instrucciones para Ejecutar el Proyecto
 
 ### Paso 1: Clonar el Repositorio
@@ -134,7 +122,19 @@ Identifica y modifica lo siguiente si es necesario:
 
     $password = "";  
 
-- Asegúrate de que la extensión OpenSSL esté habilitada en tu php.ini (busca la línea extension=openssl y quita el punto y coma al inicio, si es necesario).
+
+- Asegúrate de que la extensión OpenSSL esté habilitada.
+
+Para habilitar OpenSSL, abre tu archivo php.ini (en la opcion config de Apache en XAMPP) y busca la línea:
+
+    ;extension=openssl
+
+Luego, remueve el punto y coma al inicio para que quede:
+
+    extension=openssl
+
+Guarda el archivo y reinicia Apache para que los cambios surtan efecto. Esto habilitará la extensión OpenSSL en PHP.
+
 
 
 2. Verificar el Envío de Correos:
