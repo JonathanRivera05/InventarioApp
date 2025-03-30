@@ -144,10 +144,13 @@ Guarda el archivo y reinicia Apache para que los cambios surtan efecto. Esto hab
 ### Paso 4: Instalar Dependencias con Composer
 1. Abre la terminal en la raíz del proyecto y ejecuta:
 
-composer install
+    composer install
 
-Esto instalará PHPMailer y cualquier otra dependencia definida en composer.json.
+2. Verifica si es necesario y ejecuta:
 
+    composer require phpmailer/phpmailer
+
+Esto descargara PHPMailer y generará la carpeta vendor con las dependencias necesarias.
 
 ### Paso 5: Ejecutar el Proyecto
 1. Inicia Apache y MySQL (por ejemplo, usando XAMPP).
