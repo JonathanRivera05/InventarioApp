@@ -1,4 +1,4 @@
-# Gestión de Inventario de Productos - RV3211012022
+# Gestión de Inventario de Productos
 
 ## Descripción
 
