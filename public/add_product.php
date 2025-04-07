@@ -25,7 +25,6 @@
                 <span class="input-prefix">$</span>
                 <input type="number" id="precio" name="precio" step="0.01" required>
             </div>
-            <input type="number" id="precio" name="precio" step="0.01" required>
 
             <label for="cantidad">Cantidad:</label>
             <input type="number" id="cantidad" name="cantidad" required>
